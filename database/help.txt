@@ -1,0 +1,33 @@
+#Shreyas is here to help
+
+# Import the DatabaseManager class
+from src.database_manager import DatabaseManager
+
+# Create an instance of DatabaseManager (Might have to change your path, dekh lena)
+db_manager = DatabaseManager('../../database/database.db')
+
+#variables
+table_name = "name of your table"
+column_specifications = "id INTEGER PRIMARY KEY, name TEXT, surname TEXT, age INTEGER"
+values = (1, 'Shreyas', 'Vairagi', '101')
+
+# Create a table
+db_manager.create_table(table_name, column_specifications)
+
+# Insert into the table
+db_manager.insert_item(table_name, values)
+
+# Get all records from the table
+all_records = db_manager.select_all(table_name)
+
+# Get "selected data" from database
+selected_records = db_manager.select_by_condition(table_name, "name", 'Shreyas')
+
+# Update a record (https://www.w3schools.com/SQL/sql_update.asp)
+db_manager.update_record(table_name, "age", 23, "id", 1)
+
+# Delete a record
+db_manager.delete_record(table_name, "id", 1)
+
+# Close the database connection
+db_manager.close_connection()

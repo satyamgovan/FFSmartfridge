@@ -1,0 +1,25 @@
+ERROR:root:Login handling error: database is locked
+2024-01-31 19:43:26,265 ERROR:Failed to end session for user 2: database is locked
+2024-01-31 19:43:59,810 ERROR:Failed to end session for user 2: database is locked
+2024-02-04 01:42:31,398 ERROR:Login handling error: database is locked
+2024-02-04 01:42:43,276 ERROR:Login handling error: database is locked
+2024-02-04 01:43:01,721 ERROR:Error while retrieving User Access Logs: DatabaseManager.fetch_user_access_logs() missing 1 required positional argument: 'user_id'
+2024-02-04 01:49:14,371 ERROR:Error while retrieving User Access Logs: 'DatabaseManager' object has no attribute 'get_all_sessions'
+2024-02-04 01:51:51,218 ERROR:Error while retrieving User Access Logs: 'DatabaseManager' object has no attribute 'get_all_sessions'
+2024-02-04 01:53:17,413 ERROR:Error while retrieving User Access Logs: 'WindowManager' object has no attribute 'clear_text_widget'
+2024-02-04 01:55:48,214 ERROR:Error while retrieving User Access Logs: 'WindowManager' object has no attribute 'clear_text_widget'
+2024-02-04 01:57:28,013 ERROR:Error while retrieving User Access Logs: 'WindowManager' object has no attribute 'clear_text_widget'
+2024-02-04 01:58:04,905 ERROR:Error while retrieving User Access Logs: 'WindowManager' object has no attribute 'clear_text_widget'
+2024-02-04 01:59:04,554 ERROR:Error while retrieving User Access Logs: 'WindowManager' object has no attribute 'clear_text_widget'
+2024-02-04 02:02:15,821 ERROR:Error while retrieving User Access Logs: 'NoneType' object has no attribute 'delete'
+2024-02-04 02:06:30,454 ERROR:Error while retrieving User Access Logs: 'NoneType' object has no attribute 'insert'
+2024-02-04 02:09:35,449 ERROR:Error while retrieving User Access Logs: 'NoneType' object has no attribute 'insert'
+2024-02-04 02:25:31,938 ERROR:Error while retrieving User Access Logs: 'WindowManager' object has no attribute 'clear_text_widget'
+2024-02-04 16:48:38,238 ERROR:Error in submit_entry: database is locked
+2024-02-04 17:03:38,248 ERROR:Error in submit_entry: table item_log has 5 columns but 4 values were supplied
+2024-02-04 17:16:05,210 ERROR:Error in submit_entry: UNIQUE constraint failed: item_log.id
+2024-02-04 17:23:28,443 ERROR:ValueError in submit_entry_gui: invalid literal for int() with base 10: ''
+2024-02-04 19:53:49,174 ERROR:Error while generating PDF: 'Canvas' object does not support the context manager protocol
+2024-02-04 19:56:33,059 ERROR:Error while generating PDF: 'Canvas' object does not support the context manager protocol
+2024-02-04 20:26:04,225 ERROR:Error while sending PDF to head chef: 'utf-8' codec can't decode byte 0x93 in position 10: invalid start byte
+2024-02-05 23:53:44,360 ERROR:Error while retrieving User Access Logs: too many values to unpack (expected 3)
